@@ -1,12 +1,12 @@
-.img {
-    background-image: url("../image/hm.jpg");
+.im {
+    background-image: url("../image/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.im {
-    background-image: url("../image/logo.png");
+.img {
+    background-image: url("../image/hm.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,6 +21,13 @@
 
 .imggg {
     background-image: url("../image/choumin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    background-image: url("../image/login.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -21,6 +21,7 @@
     <br>
     <br>
     <br>
+    <br>
 
     <div class="container-fluid text-strong bg-secondary">
         <h1>
@@ -61,18 +62,17 @@
     ?>
 
     <section class="p-1 bg-warning">
-
         <div class="container text-dark text-center">
             <span class="h1 lead fw-bold text-dark">
-
-                <?php
-                echo "Today is " . date("Y/m/d");
-                echo "   " . date("l");
+                <?php $year = date("F");
+                $month = date("jS");
+                $day = date("Y");
+                echo $year . " " . $month . " " . $day;
                 ?>
-
-            </span>
+                <?php $year = date("l");
+                echo $year;
+                ?>
         </div>
-
     </section>
 
     <?php

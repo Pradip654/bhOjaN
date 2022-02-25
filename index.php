@@ -25,7 +25,7 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-    <div class="nav navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top ">
+    <div class="nav navbar navbar-expand-lg bg-success navbar-dark py-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">
                 <span class="text-primary h1 logo">
@@ -99,14 +99,14 @@
                 <div class="col-lg h-100 ">
                     <marquee behavior="alternate" scrollamount="12">
                         <a class="nav-link" href="./pages/order.php">
-                            <input class="btn btn-primary" type="submit" value=" Food Order">
+                            <input class="btn btn-lg btn-outline-info btn-block" type="submit" value=" Food Order">
                         </a>
                     </marquee>
                 </div>
                 <div class="col-lg h-100">
                     <marquee behavior="alternate" scrollamount="12">
                         <a class="nav-link" href="./pages/cake.php">
-                            <input class="btn btn-primary" type="submit" value=" Cake Order">
+                            <input class="btn btn-lg btn-outline-info btn-block" type="submit" value=" Cake Order">
                         </a>
                     </marquee>
                 </div>
@@ -140,24 +140,24 @@
                                 <a href="./pages/order.php">
                                     <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin"> </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <!-- <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <a href="./pages/order.php">
                                     <img src="./image/momo.jpg" class="d-block w-100" alt="momo"> </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <!-- <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <a href="./pages/order.php">
-                                    <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin"> </a>
+                                    <img src="./image/biryani.jpg" class="d-block w-100" alt="biryani"> </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
+                                    <!--                                     <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -187,22 +187,22 @@
                             <div class="carousel-item active">
                                 <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <!-- <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/momo.jpg" class="d-block w-100" alt="momo">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <!--    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin">
+                                <img src="./image/biryani.jpg" class="d-block w-100" alt="biryani">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
+                                    <!--  <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -232,22 +232,22 @@
                             <div class="carousel-item active">
                                 <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
+                                    <!-- <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="./image/momo.jpg" class="d-block w-100" alt="momo">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
+                                    <!--    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin">
+                                <img src="./image/biryani.jpg" class="d-block w-100" alt="biryani">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
+                                    <!--  <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p> -->
                                 </div>
                             </div>
                         </div>
@@ -302,14 +302,13 @@
 
     <!-- CONTACT PART -->
 
-    <section class="bg-dark p-3">
+    <section class="bg-success p-3">
         <div class="container">
             <div class="row g-4">
                 <div class="col-md text-light " id="section4">
                     <h2 class="mb-4">
                         Contact Info
                     </h2>
-
                     <i class="bi bi-geo-alt h1 text-warning">&nbsp;&nbsp;</i>
                     <span class="lead mb-2">Biratnagar, Province 1, Nepal</span><br>
                     <i class="bi bi-envelope h1 text-warning">&nbsp;&nbsp;</i>
@@ -325,7 +324,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <!-- DATE PART -->
@@ -333,12 +331,14 @@
     <section class="p-1 bg-warning">
         <div class="container text-dark text-center">
             <span class="h1 lead fw-bold text-dark">
-
-                <?php
-                echo "Today is " . date("Y/m/d");
-                echo "   " . date("l");
+                <?php $year = date("F");
+                $month = date("jS");
+                $day = date("Y");
+                echo $year . " " . $month . " " . $day;
                 ?>
-            </span>
+                <?php $year = date("l");
+                echo $year;
+                ?>
         </div>
     </section>
 
@@ -354,8 +354,8 @@
                 </div>
 
                 <div class="col-lg h-100">
-                    <a class="nav-link text-white" href="#">
-                        News
+                    <a class="nav-link text-white" href="#section4">
+                        Contact-Us
                     </a>
                 </div>
 
@@ -372,7 +372,6 @@
                     <?php
                     echo date("Y");
                     ?>
-
                 </div>
             </div>
         </div>

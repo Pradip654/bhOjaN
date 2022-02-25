@@ -13,10 +13,10 @@ if ($password == $repassword)
 
     if (mysqli_query($conn, $sql)) 
     {
-        echo ("Connection Succcessful!");
+        header('location:../pages/login.php');
     }
 } 
 else 
 {
-    header('location: ../pages/login.php?PasswordDonotMatch');
+    header('location: ../pages/register.php?PasswordDonotMatch');
 }

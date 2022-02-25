@@ -18,7 +18,7 @@ echo '
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-    <div class="nav navbar navbar-expand-lg bg-dark navbar-dark py-2 fixed-top">
+    <div class="nav navbar navbar-expand-lg bg-success navbar-dark py-3 fixed-top">
 
         <div class="container">
             <a href="#" class="navbar-brand">
