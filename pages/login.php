@@ -10,27 +10,29 @@
 
 <body class="login">
 
+    <!-- NAVBAR -->
     <?php
     include_once('../include/navbar.php');
     ?>
+    <!-- END OF NAVBAR -->
 
     <br>
     <br>
     <br>
     <br>
-
+    <!-- FORM PART -->
     <section class="p-3 text-center">
         <div class="container border border-info">
             <div class="container text-center p-3 lead">
-                <form class="form-signin" method="post" action="../includes/loginCheck.php">
+                <form class="form-signin" method="post" action="../include/bil.php">
                     <h1 class="border border-info">
                         <span class="h1 text-primary rounded mb-3 fw-bold logo">bhOjaN</span>
                     </h1>
                     <br>
                     <label for="inputEmail" class="sr-only">User Name</label>
-                    <input type="text" name="name" id="inputEmail" class="form-control mb-3" placeholder="user name" required autofocus>
+                    <input type="text" name="name" id="inputname" class="form-control mb-3 text-danger" placeholder="user name" required autofocus>
                     <label for="inputPassword" class="sr-only">Password</label>
-                    <input type="password" id="inputPassword" class="form-control mb-3" name="password" placeholder="Password" minlength="4" required>
+                    <input type="password" id="inputPassword" class="form-control mb-3 text-danger" name="password" placeholder="Password" minlength="4" required>
                     <div class="checkbox mb-3">
                         <label>
                             <input type="checkbox" value="remember-me" checked> Remember me
@@ -45,11 +47,15 @@
             </div>
         </div>
     </section>
+    <!-- END OF FORM PART -->
 
+    <!-- CONTACT PART -->
     <?php
     include_once('../include/contact.php')
     ?>
+    <!-- END OF CONTACT PART -->
 
+    <!-- DATE PAET -->
     <section class="p-1 bg-warning">
         <div class="container text-dark text-center">
             <span class="h1 lead fw-bold text-dark">
@@ -63,10 +69,14 @@
                 ?>
         </div>
     </section>
+    <!-- END OF DATE PART -->
 
+    <!-- FOOOTER PART -->
     <?php
     include_once('../include/footer.php')
     ?>
+    <!-- END OF FOOTER PART -->
+
 </body>
 
 </html>

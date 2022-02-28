@@ -21,7 +21,7 @@
 
 </head>
 
-<!-- NAVBAR PART -->
+<!-- NAVBAR PART STARTS FROM HERE -->
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
@@ -68,9 +68,10 @@
             </div>
         </div>
     </div>
+    <!-- NAVBAR PART ENDS FROM HERE -->
 
-    <!-- BODY PART -->
-    <!-- HOME PART -->
+    <!-- BODY PART START FROM HERE -->
+    <!-- HOME PART START FROM HERE-->
 
     <div id="section1" class="container-fluid  text-white text-center justify-content-center img p-5">
         <br>
@@ -112,10 +113,10 @@
                 </div>
             </div>
         </h1>
-
     </div>
+    <!-- HOME PART ENDS HERE -->
 
-    <!-- SERVICE PART -->
+    <!-- SERVICE PART START FROM HERE -->
 
     <div id="section2" class="container-fluid text-strong  bg-secondary text-center justify-content-center">
         <marquee behavior="alternate" scrollamount="12">
@@ -156,7 +157,7 @@
                                 <a href="./pages/order.php">
                                     <img src="./image/biryani.jpg" class="d-block w-100" alt="biryani"> </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <!--                                     <h5>Third slide label</h5>
+                                    <!--<h5>Third slide label</h5>
                                     <p>Some representative placeholder content for the third slide.</p> -->
                                 </div>
                             </div>
@@ -185,21 +186,24 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin">
+                                <a href="./pages/order.php">
+                                    <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin"> </a>
                                 <div class="carousel-caption d-none d-md-block">
                                     <!-- <h5>First slide label</h5>
                                     <p>Some representative placeholder content for the first slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./image/momo.jpg" class="d-block w-100" alt="momo">
+                                <a href="./pages/order.php">
+                                    <img src="./image/momo.jpg" class="d-block w-100" alt="momo"> </a>
                                 <div class="carousel-caption d-none d-md-block">
                                     <!--    <h5>Second slide label</h5>
                                     <p>Some representative placeholder content for the second slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./image/biryani.jpg" class="d-block w-100" alt="biryani">
+                                <a href="./pages/order.php">
+                                    <img src="./image/biryani.jpg" class="d-block w-100" alt="biryani"> </a>
                                 <div class="carousel-caption d-none d-md-block">
                                     <!--  <h5>Third slide label</h5>
                                     <p>Some representative placeholder content for the third slide.</p> -->
@@ -230,21 +234,24 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin">
+                                <a href="./pages/order.php">
+                                    <img src="./image/choumin.jpg" class="d-block w-100" alt="choumin"> </a>
                                 <div class="carousel-caption d-none d-md-block">
                                     <!-- <h5>First slide label</h5>
                                     <p>Some representative placeholder content for the first slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./image/momo.jpg" class="d-block w-100" alt="momo">
+                                <a href="./pages/order.php">
+                                    <img src="./image/momo.jpg" class="d-block w-100" alt="momo"> </a>
                                 <div class="carousel-caption d-none d-md-block">
                                     <!--    <h5>Second slide label</h5>
                                     <p>Some representative placeholder content for the second slide.</p> -->
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="./image/biryani.jpg" class="d-block w-100" alt="biryani">
+                                <a href="./pages/order.php">
+                                    <img src="./image/biryani.jpg" class="d-block w-100" alt="biryani"> </a>
                                 <div class="carousel-caption d-none d-md-block">
                                     <!--  <h5>Third slide label</h5>
                                     <p>Some representative placeholder content for the third slide.</p> -->
@@ -277,9 +284,9 @@
             </div>
         </h1>
     </div>
+    <!-- SERVICE PART ENDS HERE -->
 
-
-    <!-- ADOUT PART -->
+    <!-- ADOUT PART START FROM HERE-->
 
     <div id="section3" class="container-fluid text-center justify-content-center bg-danger text-strong">
         <marquee behavior="alternate" scrollamount="12">
@@ -299,8 +306,9 @@
             cafeterias, health care facilities, and caterers by foodservice distributors.
         </div>
     </div>
+    <!-- ABOUT PART ENDS HERE -->
 
-    <!-- CONTACT PART -->
+    <!-- CONTACT PART START FROM HERE-->
 
     <section class="bg-success p-3">
         <div class="container">
@@ -317,16 +325,18 @@
                     <span class="lead mb-2">+977-9807072190</span>
                 </div>
 
-                <!-- MAP PART -->
+                <!-- MAP PART START FROM HERE-->
 
                 <div class="col-md text-light ">
                     <iframe class="h-100 w-100 my-0 mx-0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3572.3040646729582!2d87.2755849!3d26.445926!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1643798027732!5m2!1sen!2snp" allowfullscreen="" loading="lazy"></iframe>
                 </div>
+                <!-- MAP PART ENDS HERE -->
             </div>
         </div>
     </section>
+    <!-- CONTACT PART ENDS HERE -->
 
-    <!-- DATE PART -->
+    <!-- DATE PART START FROM HERE-->
 
     <section class="p-1 bg-warning">
         <div class="container text-dark text-center">
@@ -341,8 +351,9 @@
                 ?>
         </div>
     </section>
+    <!-- DATR PART ENDS FROM HERE -->
 
-    <!-- FOOOTER PART -->
+    <!-- FOOOTER PART  START FROM HERE-->
 
     <footer class="bg-dark text-white text-center fixed-buttom">
         <div>
@@ -364,6 +375,12 @@
                         Reference
                     </a>
                 </div>
+
+                <div class="col-lg h-100">
+                    <a class="nav-link text-white" href="./pages/login.php">
+                        Login
+                    </a>
+                </div>
             </div>
 
             <div class="row bg-primary">
@@ -376,6 +393,7 @@
             </div>
         </div>
         </fotter>
+        <!-- FOOTER PART ENDS HERE -->
 
         <!-- BOOTSTRAP JS -->
         <script src="./js/bootstrap.min.js">

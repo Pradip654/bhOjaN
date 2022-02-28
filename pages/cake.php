@@ -13,10 +13,11 @@
 </head>
 
 <body>
-
+    <!-- NAVBAR -->
     <?php
     include_once('../include/navbar.php');
     ?>
+    <!-- END OF NAVBAR -->
 
     <br>
     <br>
@@ -57,10 +58,13 @@
     </div>
     <br>
 
+    <!-- CONTACT PART -->
     <?php
     include_once('../include/contact.php')
     ?>
+    <!-- END OF CONTACT PART -->
 
+    <!-- DATE PART -->
     <section class="p-1 bg-warning">
         <div class="container text-dark text-center">
             <span class="h1 lead fw-bold text-dark">
@@ -74,10 +78,13 @@
                 ?>
         </div>
     </section>
+    <!-- END OF DATE PART -->
 
+    <!-- FOOTER PART-->
     <?php
     include_once('../include/footer.php')
     ?>
+    <!-- ROOTER ENDS HERE -->
 
 </body>
 
