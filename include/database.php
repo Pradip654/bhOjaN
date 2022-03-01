@@ -2,10 +2,10 @@
 
 $url = "localhost";
 $user = "root";
-$pasword = "";
+$password = "";
 $dbn = "bhojan";
 
-$conn = mysqli_connect($url, $user, $pasword, $dbn);
+$conn = mysqli_connect($url, $user, $password, $dbn);
 if (!$conn) 
 {
     die('Connection Failed!');

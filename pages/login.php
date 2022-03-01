@@ -21,7 +21,7 @@
     <br>
     <br>
     <!-- FORM PART -->
-    <section class="p-3 text-center">
+<section class="p-3 text-center">
         <div class="container border border-info">
             <div class="container text-center p-3 lead">
                 <form class="form-signin" method="post" action="../include/bil.php">
@@ -46,7 +46,7 @@
                 </form>
             </div>
         </div>
-    </section>
+</section>
     <!-- END OF FORM PART -->
 
     <!-- CONTACT PART -->
@@ -56,7 +56,7 @@
     <!-- END OF CONTACT PART -->
 
     <!-- DATE PAET -->
-    <section class="p-1 bg-warning">
+<section class="p-1 bg-warning">
         <div class="container text-dark text-center">
             <span class="h1 lead fw-bold text-dark">
                 <?php $year = date("F");
@@ -68,13 +68,11 @@
                 echo $year;
                 ?>
         </div>
-    </section>
+</section>
     <!-- END OF DATE PART -->
 
     <!-- FOOOTER PART -->
-    <?php
-    include_once('../include/footer.php')
-    ?>
+
     <!-- END OF FOOTER PART -->
 
 </body>

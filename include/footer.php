@@ -1,6 +1,7 @@
 <?php
 
-echo '<footer class="bg-dark text-white text-center">
+echo '
+<footer class="bg-dark text-white text-center">
 <div>
 
     <div class="row bg-dark">

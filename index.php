@@ -14,6 +14,9 @@
     <!-- BOOTSTRAP ICONS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
+    <!-- BOOTSTRAP JS -->
+    <script src="./js/bootstrap.min.js"></script>
+
     <!-- SHORTCUT LOGO -->
     <link rel="shortcut icon" href="./image/logo.png">
 
@@ -22,10 +25,9 @@
 </head>
 
 <!-- NAVBAR PART STARTS FROM HERE -->
-
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-    <div class="nav navbar navbar-expand-lg bg-success navbar-dark py-3 fixed-top">
+<div class="nav navbar navbar-expand-lg bg-success navbar-dark py-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand">
                 <span class="text-primary h1 logo">
@@ -63,17 +65,21 @@
                                 <i class="bi bi-telephone"> </i> Contact
                             </a>
                         </li>
+                        <li class="nav-item px-3">
+                            <a href="./pages/login.php" class="nav-link">
+                                <i class="bi bi-house"> </i> login
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
+</div>
     <!-- NAVBAR PART ENDS FROM HERE -->
 
     <!-- BODY PART START FROM HERE -->
     <!-- HOME PART START FROM HERE-->
-
-    <div id="section1" class="container-fluid  text-white text-center justify-content-center img p-5">
+<div id="section1" class="container-fluid  text-white text-center justify-content-center img p-5">
         <br>
         <h1 class="p-5">
             Welcome To MyOnlineMeal
@@ -113,12 +119,11 @@
                 </div>
             </div>
         </h1>
-    </div>
+</div> 
     <!-- HOME PART ENDS HERE -->
 
     <!-- SERVICE PART START FROM HERE -->
-
-    <div id="section2" class="container-fluid text-strong  bg-secondary text-center justify-content-center">
+<div id="section2" class="container-fluid text-strong  bg-secondary text-center justify-content-center">
         <marquee behavior="alternate" scrollamount="12">
             <h1>Our-Services</h1>
         </marquee>
@@ -283,12 +288,11 @@
                 </div>
             </div>
         </h1>
-    </div>
+</div>
     <!-- SERVICE PART ENDS HERE -->
 
     <!-- ADOUT PART START FROM HERE-->
-
-    <div id="section3" class="container-fluid text-center justify-content-center bg-danger text-strong">
+<div id="section3" class="container-fluid text-center justify-content-center bg-danger text-strong">
         <marquee behavior="alternate" scrollamount="12">
             <h1> About Us </h1>
         </marquee>
@@ -305,12 +309,11 @@
             option. Other aspects of food delivery include catering and wholesale food service deliveries to restaurants,
             cafeterias, health care facilities, and caterers by foodservice distributors.
         </div>
-    </div>
+</div>
     <!-- ABOUT PART ENDS HERE -->
 
     <!-- CONTACT PART START FROM HERE-->
-
-    <section class="bg-success p-3">
+ <section class="bg-success p-3">
         <div class="container">
             <div class="row g-4">
                 <div class="col-md text-light " id="section4">
@@ -325,20 +328,18 @@
                     <span class="lead mb-2">+977-9807072190</span>
                 </div>
 
-                <!-- MAP PART START FROM HERE-->
-
+                 <!-- MAP PART START FROM HERE  -->
                 <div class="col-md text-light ">
                     <iframe class="h-100 w-100 my-0 mx-0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3572.3040646729582!2d87.2755849!3d26.445926!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1643798027732!5m2!1sen!2snp" allowfullscreen="" loading="lazy"></iframe>
                 </div>
-                <!-- MAP PART ENDS HERE -->
+                 <!-- MAP PART ENDS HERE  -->
             </div>
         </div>
-    </section>
+</section> 
     <!-- CONTACT PART ENDS HERE -->
 
     <!-- DATE PART START FROM HERE-->
-
-    <section class="p-1 bg-warning">
+<section class="p-1 bg-warning">
         <div class="container text-dark text-center">
             <span class="h1 lead fw-bold text-dark">
                 <?php $year = date("F");
@@ -350,33 +351,32 @@
                 echo $year;
                 ?>
         </div>
-    </section>
+</section>
     <!-- DATR PART ENDS FROM HERE -->
 
     <!-- FOOOTER PART  START FROM HERE-->
-
-    <footer class="bg-dark text-white text-center fixed-buttom">
+    <footer class="bg-dark text-white text-center">
         <div>
             <div class="row bg-dark">
-                <div class="col-lg h-100">
+                <div class="col-lg">
                     <a class="nav-link text-white" href="#section3">
                         About-Us
                     </a>
                 </div>
 
-                <div class="col-lg h-100">
+                <div class="col-lg ">
                     <a class="nav-link text-white" href="#section4">
                         Contact-Us
                     </a>
                 </div>
 
-                <div class="col-lg h-100">
+                <div class="col-lg">
                     <a class="nav-link text-white" href="#">
                         Reference
                     </a>
                 </div>
 
-                <div class="col-lg h-100">
+                <div class="col-lg">
                     <a class="nav-link text-white" href="./pages/login.php">
                         Login
                     </a>
@@ -384,7 +384,7 @@
             </div>
 
             <div class="row bg-primary">
-                <div class="col-lg h-100 ">
+                <div class="col-lg">
                     &copy;
                     <?php
                     echo date("Y");
@@ -392,12 +392,8 @@
                 </div>
             </div>
         </div>
-        </fotter>
+</fotter>
         <!-- FOOTER PART ENDS HERE -->
-
-        <!-- BOOTSTRAP JS -->
-        <script src="./js/bootstrap.min.js">
-        </script>
 
 </body>
 

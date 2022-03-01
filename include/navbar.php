@@ -18,7 +18,7 @@ echo '
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
 
-    <div class="nav navbar navbar-expand-lg bg-success navbar-dark py-3 fixed-top">
+<div class="nav navbar navbar-expand-lg bg-success navbar-dark py-3 fixed-top">
 
         <div class="container">
             <a href="#" class="navbar-brand">
@@ -58,17 +58,12 @@ echo '
                                 <i class="bi bi-telephone"></i> Contact
                             </a>
                         </li>
-
-
                     </ul>
-
                 </div>
-
             </div>
-
         </div>
+</div>
 
-    </div>
     <script src="./js/bootstrap.min.js">
     </script>
 

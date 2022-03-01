@@ -14,29 +14,30 @@
 
 <body>
 
+    <!-- NAVBAR -->
     <?php
     include_once('../include/navbar.php');
     ?>
-
+    <!-- END OF NAVBAR -->
     <br>
     <br>
     <br>
     <br>
 
-    <div class="container-fluid text-strong bg-secondary">
+<div class="container-fluid text-strong bg-secondary">
         <h1>
             <marquee behavior="alternate" scrollamount="12"> ORDER HERE</marquee>
         </h1>
-    </div>
+</div>
 
-    <div class="row bg-warning text-center">
+<!-- <div class="row bg-warning text-center">
         <h1>
             Todays Menu
         </h1>
-    </div>
+</div> -->
     <br>
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -73,9 +74,9 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+</div>
 
-    <!-- <div class="row bg-danger text-center">
+<!-- <div class="row bg-danger text-center">
         <h1>
             Popular Items
         </h1>
@@ -122,10 +123,9 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
- -->
+</div>-->
 
-    <!--  <div class="row bg-warning text-center">
+<!--  <div class="row bg-warning text-center">
         <h1>
             Other Items
         </h1>
@@ -172,14 +172,17 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div> -->
+</div> -->
     <br>
 
+    <!-- CONTACT PART -->
     <?php
     include_once('../include/contact.php')
     ?>
+    <!-- END OF CONTACT PART -->
 
-    <section class="p-1 bg-warning">
+    <!-- DATE PART -->
+<section class="p-1 bg-warning">
         <div class="container text-dark text-center">
             <span class="h1 lead fw-bold text-dark">
                 <?php $year = date("F");
@@ -191,11 +194,12 @@
                 echo $year;
                 ?>
         </div>
-    </section>
+</section>
+    <!-- END OF DATE PART -->
 
-    <?php
-    include_once('../include/footer.php')
-    ?>
+    <!-- FOOTER PART-->
+
+    <!-- FOOTER ENDS HERE -->
 
 </body>
 

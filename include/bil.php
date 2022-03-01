@@ -1,32 +1,35 @@
 <?php
+$login = false;
+$showError = false;
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST["name"];
+    $password = md5($_POST["password"]);
 
-if (isset($_POST['submit'])) {
-    $name = $_POST['name'];
-    $password = $_POST['password'];
+    // Connecting to the Database
+    include_once('../include/database.php');
 
-    include_once('./database.php');
-    $sql = "SELECT * FROM users WHERE name = '" . $name . "';";
-    $result = mysqli_query($conn, $sql);
-
-    if (mysqli_num_rows($result) > 0) {
-        while ($row = mysqli_fetch_assoc($result)) {
-            $hash = $row["password"];
-            $password = password_verify($password, $hash);
-            if ($row["name"] == $name && $passwordH == 1) {
-                header('location: ../index.php');
-                session_start();
-                $_SESSION["name"] = $row["name"];
-                $_SESSION["password"] = $row["password"];
-            }
-            else{
-                header('location: ../pages/login.php?password_not_matched');
-            }
-        }
+    // Die if connection was not successful
+    if (!$conn) {
+        die("Sorry we failed to connect: " . mysqli_connect_error());
     } else {
-        header('location: ../pages/login.php?user_not_matched');
-    }
 
-    mysqli_close($conn);
-} else {
-    header('location: ../pages/login.php');
+        $sql = "Select * from users where name='$name' AND password='$password'";
+
+        $result = mysqli_query($conn, $sql);
+        $num = mysqli_num_rows($result);
+        // var_dump($num);
+        if ($num) {
+
+            $_SESSION['loggedin'] = true;
+            $_SESSION['user'] = $name;
+
+            include_once('../index.php');
+        ?>
+
+        <?php
+        } else {
+
+            echo "<script> alert('Invalid Username Or Password');</script>";
+        }
+    }
 }

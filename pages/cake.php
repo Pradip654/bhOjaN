@@ -6,56 +6,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>oRdEr</title>
+    <title>Cake Order</title>
     <link rel="shortcut icon" href="../image/logo.png">
     <link rel="stylesheet" href="../css/main.css">
 
 </head>
 
 <body>
+
     <!-- NAVBAR -->
     <?php
     include_once('../include/navbar.php');
     ?>
     <!-- END OF NAVBAR -->
-
     <br>
     <br>
     <br>
     <br>
 
-    <div class="container-fluid text-strong bg-secondary">
+<div class="container-fluid text-strong bg-secondary">
         <h1>
             <marquee behavior="alternate" scrollamount="12"> ORDER HERE</marquee>
         </h1>
-    </div>
+</div>
 
-    <div class="row bg-warning text-center">
+<!-- <div class="row bg-warning text-center">
         <h1>
-            Latest Cake
+            Todays Menu
         </h1>
-        <div class="container bg-white text-center">
-            Amit
-        </div>
-    </div>
+</div> -->
+    <br>
 
-    <div class="row bg-danger text-center">
-        <h1>
-            Popular Cake
-        </h1>
-        <div class="container bg-white text-center">
-            Amit
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../image/momo.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../image/choumin.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../image/biryani.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+</div>
 
-    <div class="row bg-warning text-center">
+<!-- <div class="row bg-danger text-center">
         <h1>
-            Other Cakes
+            Popular Items
         </h1>
-        <div class="container bg-white text-center">
-            Amit
+        <br>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="../image/choumin.jpg" class="d-block w-100" alt="choumin">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../image/momo.jpg" class="d-block w-100" alt="momo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../image/biryani.jpg" class="d-block w-100" alt="biryani">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                         <p>Some representative placeholder content for the third slide.</p> 
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </div>
+</div>-->
+
+<!--  <div class="row bg-warning text-center">
+        <h1>
+            Other Items
+        </h1>
+        <br>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="../image/choumin.jpg" class="d-block w-100" alt="choumin">
+                    <div class="carousel-caption d-none d-md-block">
+                         <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../image/momo.jpg" class="d-block w-100" alt="momo">
+                    <div class="carousel-caption d-none d-md-block">
+                         <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p> 
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="../image/biryani.jpg" class="d-block w-100" alt="biryani">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                         <p>Some representative placeholder content for the third slide.</p> 
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+</div> -->
     <br>
 
     <!-- CONTACT PART -->
@@ -65,7 +182,7 @@
     <!-- END OF CONTACT PART -->
 
     <!-- DATE PART -->
-    <section class="p-1 bg-warning">
+<section class="p-1 bg-warning">
         <div class="container text-dark text-center">
             <span class="h1 lead fw-bold text-dark">
                 <?php $year = date("F");
@@ -77,14 +194,12 @@
                 echo $year;
                 ?>
         </div>
-    </section>
+</section>
     <!-- END OF DATE PART -->
 
     <!-- FOOTER PART-->
-    <?php
-    include_once('../include/footer.php')
-    ?>
-    <!-- ROOTER ENDS HERE -->
+
+    <!-- FOOTER ENDS HERE -->
 
 </body>
 
